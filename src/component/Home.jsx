@@ -1,6 +1,6 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import btcSrc from "../Assets/btc.png"
+import btcSrc from "../Assets/btc-min.png"
 import {motion} from "framer-motion"
 
 const Home = () => {

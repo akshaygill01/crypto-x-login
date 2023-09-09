@@ -29,7 +29,7 @@ const Exchanges = () => {
    }, [])
    //if data would not be fetched successfully then this error component would be shown;
    if(error){
-     return <Error/>
+     return <Error message={"Error While Fetching Exchanges"}/>
    }
 
 

@@ -5,6 +5,8 @@ import { Container, HStack, Button, RadioGroup,Radio, } from '@chakra-ui/react';
 import Loader from "./Loader"
 import Error from "./Error";
 import CoinCard from './CoinCard';
+
+
 const Coins= () => {
  const [coins,setCoins]=useState([]);
  const [loading,setLoading]=useState(true);
@@ -44,7 +46,7 @@ const Coins= () => {
    }, [currency,page])
    //if data would not be fetched successfully then this error component would be shown;
    if(error){
-     return <Error message={"error while fetching coins"}/>
+     return <Error message={"error while fetching coins,Please try later...."}/>
    }
 
 
